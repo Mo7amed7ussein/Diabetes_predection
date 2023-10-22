@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import sys
 # sys.path.append('diabetes_predection/Project' ) # Path of Factory file file
 import Factory as fy
 
