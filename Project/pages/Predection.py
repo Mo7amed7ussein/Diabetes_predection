@@ -4,9 +4,8 @@ import joblib
 # sys.path.append('diabetes_predection/Project' ) # Path of Factory file file
 import Factory as fy
 
-
-Inputs = fy.Inputs
-Model = fy.Model
+Inputs = joblib.load("Inputs.pkl")
+Model = joblib.load("Model.pkl")
 def prediction(gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level):
     test_df = pd.DataFrame(columns= Inputs)
     test_df.at[0,"gender"] = gender
