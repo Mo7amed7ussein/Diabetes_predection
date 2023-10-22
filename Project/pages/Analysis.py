@@ -3,7 +3,7 @@ import streamlit as st
 
 import sys
 # Directing to Factory file path to be able to read it
-sys.path.append(r'C:\Users\moham\02.Assignments\Final Project\Project' ) # Path of Factory file file
+sys.path.append('Project' ) # Path of Factory file file
 import Factory as fy
 
 # Dividing our analysis into tabs, each tab contains information in one dimension and many facts (sales, profit, quantity)
