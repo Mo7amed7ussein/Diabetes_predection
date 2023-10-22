@@ -5,7 +5,7 @@ import plotly.express as px
 import joblib
 
 # Dataset importing
-df = pd.read_csv(r'./Sources/Diabetes_clean.csv', encoding='utf-8') # Cleaned dataset
+df = pd.read_csv('./Sources/Diabetes_clean.csv', encoding='utf-8') # Cleaned dataset
 # Univariate analysis
   # Categorical feature
 fig1 = px.pie(df, 'gender')
