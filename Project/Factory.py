@@ -5,8 +5,8 @@ import plotly.express as px
 import joblib
 
 # Dataset importing
-Inputs = joblib.load("./Inputs.pkl")
-Model = joblib.load("./Model.pkl")
+Inputs = joblib.load("Inputs.pkl")
+Model = joblib.load("Model.pkl")
 df = pd.read_csv(r'./Sources/Diabetes_clean.csv', encoding='utf-8') # Cleaned dataset
 # Univariate analysis
   # Categorical feature
