@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 # sys.path.append('diabetes_predection/Project' ) # Path of Factory file file
-import Factory as fy
 
 Inputs = joblib.load("Inputs.pkl")
 Model = joblib.load("Model.pkl")
