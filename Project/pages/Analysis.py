@@ -1,7 +1,6 @@
 # import needed libraries
 import streamlit as st
 
-import sys
 # Directing to Factory file path to be able to read it
 # sys.path.append('diabetes_predection/Project' ) # Path of Factory file file
 import Factory as fy
