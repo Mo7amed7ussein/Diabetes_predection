@@ -1,7 +1,7 @@
 # importing needed libraries
 import numpy as np
 import pandas as pd
-import seaborn as sns
+import plotly.express as px
 import joblib
 
 # Dataset importing
