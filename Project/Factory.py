@@ -20,3 +20,13 @@ fig7 = px.histogram(df, 'HbA1c_level', color= 'HbA1c_level', text_auto= True, wi
 fig8 = px.box(df, 'HbA1c_level')
 fig9 = px.histogram(df, 'blood_glucose_level', color='blood_glucose_level', text_auto= True, width= 5000)
 fig10 = px.box(df, 'blood_glucose_level')
+
+# Bivariate analysis
+fig11 = px.histogram(data_frame=df ,x = 'age',y = 'diabetes', histfunc='avg')
+fig12 = px.histogram(data_frame=df ,x = 'bmi',y = 'diabetes', histfunc='avg')
+fig13 = px.histogram(data_frame=df ,x = 'HbA1c_level',y = 'diabetes', histfunc='avg', color='HbA1c_level')
+fig14 = px.histogram(data_frame=df ,x = 'blood_glucose_level',y = 'diabetes', histfunc='avg', color= 'blood_glucose_level')
+fig15 = px.histogram(data_frame=df ,x = 'gender', color= 'diabetes')
+fig16 = px.histogram(data_frame=df ,x = 'hypertension', color= 'diabetes')
+fig17 = px.histogram(data_frame=df ,x = 'heart_disease', color= 'diabetes')
+fig18 = px.histogram(data_frame=df ,x = 'smoking_history', color= 'diabetes')
