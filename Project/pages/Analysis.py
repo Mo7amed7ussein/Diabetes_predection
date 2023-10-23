@@ -23,17 +23,17 @@ with tab_univariate_analysis:
             st.write('You can notice that the most values of the chart is Female.')
             st.plotly_chart(fy.fig1)
 
-        if option1 == 'Smoking history':
+        elif option1 == 'Smoking history':
             st.subheader('b- Smoking history')
             st.write('You can notice that the most values of the chart is "No Info".')
             st.plotly_chart(fy.fig2)
 
-        if option1 == 'Hypertension':
+        elif option1 == 'Hypertension':
             st.subheader('b- Hypertension')
             st.write('You can notice that the most values of the chart is "Healthy".')
             st.plotly_chart(fy.fig3)
 
-        if option1 == 'Heart disease':
+        else:
             st.subheader('b- Heart disease')
             st.write('You can notice that the most values of the chart is "Healthy".')
             st.plotly_chart(fy.fig4)
@@ -47,18 +47,18 @@ with tab_univariate_analysis:
             st.write('You can notice that the age data is normally distributed with no outliers.')
             st.plotly_chart(fy.fig5)
             
-        if option2 == 'Body mass index':
+        elif option2 == 'Body mass index':
             st.subheader('b- Body mass index')
             st.write('You can notice that there are some outliers which are reasonable in the data and the most values is in the normal weight range.')
             st.plotly_chart(fy.fig6)
 
-        if option2 == 'HbA1c level':
+        elif option2 == 'HbA1c level':
             st.subheader('b- HbA1c_level')
             st.write('You can notice that there are some outliers which are reasonable in the data.')
             st.plotly_chart(fy.fig7)
             st.plotly_chart(fy.fig8)
 
-        if option2 == 'Blood glucose level':
+        else:
             st.subheader('b- Blood glucose level')
             st.write('You can notice that there are some outliers which are reasonable in the data.')
             st.plotly_chart(fy.fig9)
