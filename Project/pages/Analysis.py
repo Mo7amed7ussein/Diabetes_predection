@@ -69,7 +69,7 @@ with tab_univariate_analysis:
 
 with tab_bivariate_analysis:
   # Title of tab
-    option3 = st.radio('Choose the feature you want to review virsus the target (diabetes)', ('Age', 'Body mass index', 'HbA1c level', 'Blood glucose level', 'Gender', 'Hypertension', 'Heart disease', 'Smoking history'))
+    option3 = st.radio('Choose the feature you want to review virsus the target (diabetes)', ('Age', 'Body mass index', 'HbA1c level', 'Blood glucose level', 'Gender', 'Hypertension', 'Heart disease', 'Smoking history', 'Correlation'))
     if option3 == 'Age':
         st.title('Bivariate Analysis') 
         st.subheader('1- Diabetes vs Age')
