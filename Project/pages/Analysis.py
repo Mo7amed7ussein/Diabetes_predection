@@ -25,7 +25,6 @@ with tab_univariate_analysis:
 
         elif option1 == 'Smoking history':
             st.subheader('b- Smoking history')
-            st.write('There is high correlation between diabetes infection and the two features [Blood glucose level, HbA1c level]')
             st.write('You can notice that the most values of the chart is "No Info".')
             st.plotly_chart(fy.fig2)
 
@@ -110,4 +109,5 @@ with tab_bivariate_analysis:
 
     else:
         st.subheader('9- Correlation')
+        st.write('There is high correlation between diabetes infection and the two features [Blood glucose level, HbA1c level]')
         st.plotly_chart(fy.fig19)
