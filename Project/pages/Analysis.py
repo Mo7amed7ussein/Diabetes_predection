@@ -103,6 +103,10 @@ with tab_bivariate_analysis:
         st.subheader('7- Diabetes vs Heart disease')
         st.plotly_chart(fy.fig17)
         
-    else:
+    elif option3 == 'Smoking history':
         st.subheader('8- Diabetes vs Smoking history')
         st.plotly_chart(fy.fig18)
+
+    else:
+        st.subheader('9- Correlation')
+        st.plotly_chart(fy.fig19)
