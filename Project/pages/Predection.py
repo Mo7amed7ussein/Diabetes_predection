@@ -36,7 +36,7 @@ def main():
     
     bmi = st.slider("Body mass index" , min_value= 10 , max_value=150 , value= 10, step= 1)   
     
-    HbA1c_level = st.slider("HbA1c_level" , min_value= 3 , max_value=9 , value=3, step= 0.1)
+    HbA1c_level = st.slider("HbA1c_level" , min_value= 3 , max_value=9 , value=3, step= 1)
     
     blood_glucose_level = st.slider("blood_glucose_level" , min_value= 50 , max_value= 350 , value= 50, step=1)
     
