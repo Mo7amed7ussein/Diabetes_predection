@@ -34,7 +34,7 @@ def main():
     
     smoking_history = st.selectbox("smoking_history" , ['never', 'No Info', 'current', 'former'])
     
-    bmi = st.slider("Body mass index" , min_value= 10 , max_value=150 , value= 10, step=0.5)   
+    bmi = st.slider("Body mass index" , min_value= 10 , max_value=150 , value= 10, step= 1)   
     
     HbA1c_level = st.slider("HbA1c_level" , min_value= 3 , max_value=9 , value=3, step= 0.1)
     
